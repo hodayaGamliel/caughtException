@@ -1,11 +1,10 @@
-public class caughtException 
+public class CaughtException 
 {
 	public static void main(String[] args) throws Exception
 	{
+		Thread.sleep(1000 * 30);
 		test();
-		Thread.sleep(1000 * 60 * 10);
-		test();
-		Thread.sleep(1000 * 60 * 10);
+		Thread.sleep(1000 * 30);
 	}
 	
 	public static void test() throws Exception
